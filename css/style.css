@@ -1,0 +1,169 @@
+/* common */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #384f60;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.float-left {
+    float: left;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container-80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-50 {
+    width: 50%;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+header {
+    position: relative;
+}
+
+/* menu-bar link-bar common */
+.lang-container,
+.logo-container {
+    width: 20%;
+}
+
+.lang-container,
+.btn-container,
+.logo-container,
+.link-container {
+    margin: 30px 0;
+}
+
+.btn-container,
+.link-container {
+    width: 80%;
+    text-align: right;
+}
+
+/* btn */
+.btn {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #fe775a;
+    border-radius: 5px;
+}
+
+.btn-large {
+    margin: 0;
+    padding: 15px 30px;
+}
+
+.btn-log {
+    background-color: #fafcfe;
+    color: #fe775a;
+}
+
+.btn-log:hover {
+    background-color: #fe775a;
+    color: white;
+}
+
+.btn-free {
+    background-color: #fe775a;
+    color: #fafcfe;
+}
+
+.btn-free:hover {
+    background-color: #fafcfe;
+    color: #fe775a;
+}
+
+/* menu-bar */
+.menu-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f4f9fd;
+    border-bottom: 1px solid black;
+}
+
+.lang-container {
+    cursor: pointer;
+}
+
+.lang-container .down {
+    border-right: 1px solid #384f60;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.search {
+    color: #47bccf;
+}
+
+/* link-bar */
+.link-bar {
+    margin-top: 83px;
+}
+
+.link-container li {
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+/* jumbotron */
+.jumbotron {
+    width: 100%;
+    
+    background-image: url(../img/jumbotron.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron,
+.jbt-foot {
+    border-bottom: 2px solid #384f60;
+}
+
+.jbt-foot {
+    height: 80px;
+    background-color: #afebe4;
+}
+
+.title {
+    padding-top: 50px;
+}
+
+.title > h1 {
+    font-size: 45px;
+}
+
+.title > p {
+    margin: 30px 0 50px 0;
+}
+
+.title > .caption {
+    margin: 45px 0 90px 0;
+}
