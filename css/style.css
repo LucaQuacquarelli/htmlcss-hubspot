@@ -30,7 +30,9 @@ body {
     width: 50%;
 }
 
-.font-12 {
+.font-12,
+.footer-list a,
+.footer-container .contact {
     font-size: 12px;
 }
 
@@ -44,6 +46,11 @@ body {
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.list-block li {
+    display: block;
+    text-align: left;
 }
 
 li {
@@ -293,11 +300,6 @@ main {
     margin: 30px 0;
 }
 
-.hub > .list-block li {
-    display: block;
-    text-align: left;
-}
-
 .list-block .check {
     margin-right: 15px;
 }
@@ -343,8 +345,9 @@ main {
     border-bottom: 0;
 }
 
+/* partner container */
 .partner-container {
-    margin: 50px auto;
+    margin: 50px auto 0 auto;
 }
 
 .data-partner {
@@ -399,4 +402,104 @@ main {
 
 .work-img > img {
     width: 50%;
+}
+
+/* footer */
+footer {
+    background-color: #32495b;
+}
+
+/* footer container */
+.footer-container {
+    padding: 30px 0;
+}
+
+/* list container */
+.list-container {
+    width: 100%;
+}
+
+.footer-list {
+    width: calc(25% - 38px);
+}
+
+.footer-list * {
+    padding-bottom: 5px;
+    color: #dadee0;
+}
+
+.sx {
+    margin: 0 25px 0 50px;
+}
+
+.dx {
+    margin: 0 50px 0 25px;
+}
+
+/* channels */
+.channels {
+    position: relative;
+}
+
+.channels > .contact {
+    position: absolute;
+    top: 0;
+    right: 65px;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #dadee0;
+    border-radius: 5px;
+    background-color: #dadee0;
+    color: #32495b;
+}
+
+.contact:hover {
+    border: 1px solid #dadee0;
+    background-color: #32495b;
+    color: #dadee0;
+}
+
+.channels > .icon {
+    position: absolute;
+    top: 30px;
+    right: 85px;
+}
+
+.channels i {
+    padding: 0 5px;
+    color: #dadee0;
+}
+
+/* languages */
+.languages {
+    margin-top: 110px;
+    border-bottom: 1px solid #dadee0;
+}
+
+.languages li {
+    padding: 0 10px 20px 10px;
+    color: #dadee0;
+    cursor: pointer;
+}
+
+/* term-container */
+.term-container {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.footer-logo > h4 {
+    color: #dadee0;
+}
+
+.term {
+    text-align: right;
+}
+
+.term li {
+    padding: 0 10px 0 10px;
+}
+
+.term a {
+    color: #dadee0;;
 }
